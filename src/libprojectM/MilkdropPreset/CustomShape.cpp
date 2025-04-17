@@ -47,7 +47,7 @@ CustomShape::CustomShape(PresetState& presetState)
 
     glBufferData(GL_ARRAY_BUFFER, sizeof(TexturedPoint) * vertexData.size(), vertexData.data(), GL_STREAM_DRAW);
 
-    RenderItem::Init();
+    Init();
 
     m_perFrameContext.RegisterBuiltinVariables();
 }
