@@ -75,7 +75,9 @@ public:
 
     // Abstract interface for backend implementations
     virtual void InitVertexAttrib() = 0;
-    // This class is now intended to be used only for backend-specific implementations.
+
+    // For legacy compatibility: allow (optional) backend-specific initialization
+    virtual void Init() {}
 };
 
 } // namespace Renderer
