@@ -25,7 +25,7 @@ namespace UserSprites {
 
 MilkdropSprite::MilkdropSprite()
 {
-    OpenGLRenderItem::Init();
+    this->Init();
 }
 
 void MilkdropSprite::InitVertexAttrib()
