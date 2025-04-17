@@ -24,6 +24,7 @@
 #include "Preset.hpp"
 #include "PresetFactoryManager.hpp"
 #include "TimeKeeper.hpp"
+#include "Renderer/Backend/OpenGL/OpenGLPresetTransition.hpp"
 
 #include <Audio/PCM.hpp>
 
