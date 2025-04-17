@@ -16,7 +16,7 @@ namespace Renderer {
 /**
  * @brief Implements the shader and rendering logic to blend two presets into each other.
  */
-class PresetTransition : public RenderItem
+class PresetTransition
 {
 public:
     PresetTransition() = delete;
@@ -31,7 +31,7 @@ public:
                               double durationSeconds,
                               double transitionStartTime);
 
-    void InitVertexAttrib() override;
+    // No longer inherits from RenderItem; InitVertexAttrib is not part of the interface.
 
     /**
      * @brief Returns true if the transition is done.
