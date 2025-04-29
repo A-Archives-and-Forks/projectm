@@ -94,7 +94,7 @@ Source code and other resources, mostly aimed at developers.
 
 ### Click For Demo Videos
 
-<a href="https://www.youtube.com/watch?v=jJmLQGhYWys&list=PLFLkbObX4o6TK1jGL6pm1wMwvq2FXnpYJ">
+<a href="https://www.youtube.com/watch?v=2dSam8zwSFw&list=PLFLkbObX4o6TK1jGL6pm1wMwvq2FXnpYJ">
   <img src="https://i3.ytimg.com/vi/QlfqpVvo4zM/maxresdefault.jpg" width="800" alt="4k ProjectM render demo playlist" />
 </a>
 
